@@ -20,6 +20,7 @@ public class SupportSystem {
       Ticket ticket = new Ticket(userName, issueDescription);
       tickets.offer(ticket);
     }
+    sc.close();
 
     System.out.println("-------------------------------------------");
     System.out.println("All tickets have been logged.");
